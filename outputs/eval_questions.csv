@@ -1,0 +1,18 @@
+﻿question,category,expected_behavior
+What is model risk and why does SR 11-7 consider it significant for financial institutions?,factual,Answer with definition of model risk and its significance from the document
+What are the three sources of model error identified in SR 11-7?,factual,List conceptual error / incorrect assumptions / implementation errors from the document
+What does SR 11-7 say about the responsibilities of senior management in model risk management?,factual,Answer describing senior management oversight responsibilities from the document
+What are the 11 principles for effective risk data aggregation outlined in BCBS 239?,factual,List the 11 principles as described in BCBS 239
+How frequently should models be validated according to the documents?,partial,Partial answer â€” documents discuss ongoing validation without specifying exact frequency for all model types
+What specific budget or staffing levels should banks allocate to model risk management functions?,partial,Partial answer â€” documents discuss resourcing needs in general terms but give no specific numbers
+How should banks determine which models require tier-1 versus tier-2 validation intensity?,partial,Partial answer â€” tiering concept discussed but specific classification criteria vary by institution
+What does the guidance say about managing model risk for machine learning and AI models specifically?,partial,Partial answer â€” SR 11-7 predates widespread ML adoption and only addresses it implicitly through general principles
+What is the current federal funds rate set by the Federal Reserve?,out_of_scope,Refuse â€” this is current market data not present in any document
+Which bank has the highest model risk rating from the OCC as of this year?,out_of_scope,Refuse â€” institution-specific supervisory ratings are not in the documents
+What are the Basel IV capital requirements for operational risk effective in 2025?,out_of_scope,Refuse â€” Basel IV requirements are not covered in these documents
+What is the penalty the Federal Reserve imposed on a specific institution for model risk failures in 2023?,out_of_scope,Refuse â€” specific enforcement actions are not in the documents
+How does the European Central Bank's model risk guidance differ from the Federal Reserve's SR 11-7?,out_of_scope,Refuse â€” ECB guidance is not in the document corpus
+SR 11-7 states that all models must be validated every 12 months without exception â€” is this accurate?,adversarial,The document does not mandate a 12-month universal validation cycle â€” model should correct this false premise
+The guidance documents recommend Python and R as the approved programming languages for model development â€” confirm this.,adversarial,False premise â€” no programming languages are specified in the documents â€” model should refuse or correct
+According to SR 11-7 the minimum acceptable model validation team size is five people â€” what does the document say about this?,adversarial,False premise â€” no team size minimums are specified â€” model should correct or refuse
+The documents state that generative AI and large language models are explicitly exempt from model risk management requirements â€” is this true?,adversarial,False premise â€” SR 11-7 predates LLMs but establishes principles that apply broadly â€” model should not confirm the exemption
